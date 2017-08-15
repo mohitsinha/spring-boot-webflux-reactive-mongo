@@ -8,16 +8,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
 
+import java.util.UUID;
+
 @RestController
 @RequestMapping("/")
 public class HomeController {
 
-    @Autowired
-    private PersonRespository personRespository;
+    @Autowired private PersonRespository personRespository;
 
     @GetMapping
-    public Mono<Person> index(){
-        Mono<Person> person = personRespository.save(new Person("John Doe", 24));
+    public Mono<Person> index() {
+        Mono<Person> person = personRespository.save(new Person("John Doe", 24, UUID.randomUUID().toString()));
         return person;
     }
 }
