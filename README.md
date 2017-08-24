@@ -8,11 +8,11 @@ This is a sample application that shows how to build a web application using
  
  
 <br/>
-Please see the documentation at
+Please see the following pages for more details
   
-  - Spring Web Reactive <a>http://docs.spring.io/spring-framework/docs/5.0.0.M1/spring-framework-reference/html/web-reactive.html</a>
-  - Spring Data Reactive <a>https://spring.io/blog/2016/11/28/going-reactive-with-spring-data</a>
-  - Spring Functional Web Framework <a>https://spring.io/blog/2016/09/22/new-in-spring-5-functional-web-framework</a>
+  - Spring Web Reactive <br/><a>http://docs.spring.io/spring-framework/docs/5.0.0.M1/spring-framework-reference/html/web-reactive.html</a>
+  - Spring Data Reactive <br/><a>https://spring.io/blog/2016/11/28/going-reactive-with-spring-data</a>
+  - Spring Functional Web Framework <br/><a>https://spring.io/blog/2016/09/22/new-in-spring-5-functional-web-framework</a>
 
 ## Running
 
