@@ -12,7 +12,8 @@ import reactor.core.publisher.Flux;
 @RequestMapping("/person")
 public class PersonController {
 
-    @Autowired private PersonRespository personRespository;
+    @Autowired
+    private PersonRespository personRespository;
 
     @GetMapping
     public Flux<Person> index() {
