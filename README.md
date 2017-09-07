@@ -26,3 +26,20 @@ Run this using using the gradle wrapper included
 ```
 
 And then go to http://localhost:8080 to test the API's.
+
+
+## cURL Commands
+
+You can try the following API's after the server is running.
+
+GET __/person__
+
+``` curl http://localhost:8080/person -v -u tom:password```
+
+GET __/person/{id}__
+
+``` curl http://localhost:8080/person/{id} -v -u tom:password```
+
+POST __/person__
+
+``` curl -X POST -d '{"name":"John Doe","age":20}' -H "Content-Type: application/json" http://localhost:8080/person -v -u tom:password```
