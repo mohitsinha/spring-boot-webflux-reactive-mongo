@@ -30,7 +30,7 @@ And then go to http://localhost:8080 to test the API's.
 
 ## cURL Commands
 
-You can try the following API's after the server is running.
+You can try the following API's once the server is running.
 
 GET __/person__
 
